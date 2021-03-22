@@ -11,3 +11,4 @@ host_nsg_name: ansible-host-security
 host_vm_name1: ansible-lab-host1
 host_vm_name2: ansible-lab-host2
 host_vm_name3: ansible-lab-host3
+...

@@ -1,0 +1,4 @@
+---
+- name: Disable Root Login
+  azure.azcollection.azure_rm_virtualmachine:
+    name:
