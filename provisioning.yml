@@ -38,6 +38,7 @@
         access: Deny
         priority: 103
         direction: Inbound
+  
   - name: 'Create {{ controller_subnet_name }}'
     azure.azcollection.azure_rm_subnet:
       name: '{{ controller_subnet_name }}'
